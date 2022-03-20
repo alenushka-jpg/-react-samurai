@@ -1,17 +1,42 @@
 .profile {
   grid-column: 2/3;
-  background-color:darksalmon;
 }
 
 .profile img {
-  width: 1140px;
-  height: 150px;
+  width: 992px;
+  height: 170px;
+  margin-bottom: 20px;
   object-fit: cover;
 }
 
 .content {
-  background-color:blueviolet;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  column-gap: 50px;
 }
+
+.contentImg img {
+  width: 160px;
+  height: 160px;
+}
+
+.contentDescription p {
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contentDescription span {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #283645;
+}
+
+
+
 
 /* .myPost {
 
