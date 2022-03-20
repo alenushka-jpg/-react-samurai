@@ -27,13 +27,13 @@
   list-style: none;
 }
 
-.app-container__section {
+.app-container__profile {
   grid-column: 2/3;
   background-color:darksalmon;
 }
 
-.app-container__section img {
+.app-container__profile img {
   width: 1140px;
-  height: 80px;
+  height: 150px;
   object-fit: cover;
 }
