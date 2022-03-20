@@ -1,0 +1,10 @@
+.navigation {
+  grid-column: 1/2;
+  background-color:coral;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

@@ -1,0 +1,26 @@
+.profile {
+  grid-column: 2/3;
+  background-color:darksalmon;
+}
+
+.profile img {
+  width: 1140px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.content {
+  background-color:blueviolet;
+}
+
+/* .myPost {
+
+}
+
+.newPost {
+
+} */
+
+.item {
+  color: white;
+}

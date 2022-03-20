@@ -1,18 +1,20 @@
 import React from 'react';
+import classes from'./Profile.module.css';
 
 const Profile = () => {
   return (
-    <div className='app-container__profile'>
+    <div className={classes.profile}>
       <img src='https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg'></img>
-      <section className='app-container__content'>ava + description</section>
-      <section className='app-container__my-post'>
-        my post
-        <div className='app-container__new-post'>new post</div>
+      <section className={classes.content}>ava + description</section>
+      <section className={classes.myPost}>
+        <div className={classes.newPost}>
+          <h2>new post</h2>
+        </div>
       </section>
-      <section className='app-container__post'>post 1</section>
-      <section className='app-container__post'>post 2</section>
+      <section className={classes.item}>post 1</section>
+      <section className={classes.item}>post 2</section>
     </div>
   )
 }
 
-export default Profile
+export default Profile;
