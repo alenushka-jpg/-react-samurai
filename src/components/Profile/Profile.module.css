@@ -2,33 +2,33 @@
   grid-column: 2/3;
 }
 
-.content {
+.profile__content {
   display: grid;
   grid-template-columns: 160px 1fr;
   column-gap: 50px;
 }
 
 .profile > img,
-.content img {
+.profile__content img {
   width: 992px;
   height: 170px;
   margin-bottom: 20px;
   object-fit: cover;
 }
 
-.contentImg img {
+.profile__img img {
   width: 160px;
   height: 160px;
 }
 
-.contentDescription p {
+.profile__description p {
   margin: 0 0 20px;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
 }
 
-.contentDescription span {
+.profile__description span {
   display: block;
   font-weight: 400;
   font-size: 20px;

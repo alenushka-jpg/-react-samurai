@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.app-container__content {
+  grid-column: 2/3;
+}
+
 img,
 a {
   display: block;
