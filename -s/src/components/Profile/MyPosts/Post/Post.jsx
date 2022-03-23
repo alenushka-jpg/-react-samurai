@@ -1,9 +1,12 @@
 import React from 'react';
 import classes from './Post.module.css';
 
-const Post = () => {
+const Post = (props) => {
   return (
-    <section className={classes.postItem}>post 1</section>
+    <div className={classes.postItem}>
+      <img src="https://avatarko.ru/img/kartinka/33/sobaka_odezhda_zhivotnye_34275.jpg"/>
+      <p>{props.message}</p>
+    </div>
   )
 }
 

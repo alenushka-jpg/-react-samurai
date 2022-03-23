@@ -1,6 +1,16 @@
 .postItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+
+.postItem img {
+  width: 82px;
+  height: 85px;
+  margin-right: 30px;
+  border-radius: 50%;
 }

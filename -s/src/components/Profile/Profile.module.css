@@ -2,17 +2,18 @@
   grid-column: 2/3;
 }
 
-.profile img {
-  width: 992px;
-  height: 170px;
-  margin-bottom: 20px;
-  object-fit: cover;
-}
-
 .content {
   display: grid;
   grid-template-columns: 160px 1fr;
   column-gap: 50px;
+}
+
+.profile > img,
+.content img {
+  width: 992px;
+  height: 170px;
+  margin-bottom: 20px;
+  object-fit: cover;
 }
 
 .contentImg img {

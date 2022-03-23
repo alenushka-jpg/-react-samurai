@@ -7,11 +7,8 @@ const MyPosts = () => {
     <section className={classes.myPosts}>
       <textarea placeholder='Add new news about dogs'></textarea>
       <button type='button'>send</button>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post message="Hey, I'm a cruel dog. My calling is front-end development"/>
+      <Post message="This is our new developer program"/>
     </section>
   )
 };
