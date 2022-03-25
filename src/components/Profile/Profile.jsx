@@ -11,7 +11,7 @@ const Profile = () => {
         <div className={classes.profile__img}>
           <img src="https://avatarko.ru/img/kartinka/13/zhivotnye_sobaka_ochki_12359.jpg"/>
         </div>
-        <div className={classes.profile__Description}>
+        <div className={classes.profile__description}>
           <p>Brutal dog</p>
           <span>Date of Bird: 19 january</span>
           <span>City: Tel-a-viv</span>
