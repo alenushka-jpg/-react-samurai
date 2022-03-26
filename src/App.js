@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Dialogs from './components/Dialogs/Dialogs';
+import Messenger from './components/Dialogs/Messenger';
 import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
 import Profile from './components/Profile/Profile';
@@ -17,7 +17,7 @@ const App = () => {
         <Navigation/>
         <div className='app-container__content'>
           <Routes>
-            <Route path='/dialogs/*' element={<Dialogs/>}/>
+            <Route path='/dialogs/*' element={<Messenger/>}/>
             <Route path='/profile' element={<Profile/>}/>
             <Route path='/news' element={<News/>}/>
             <Route path='/music' element={<Music/>}/>
