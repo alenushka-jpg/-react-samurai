@@ -29,22 +29,23 @@ const Messenger = () => {
     {id: 3, message: 'Brutal dog meeting tonight at 8pm'},
     {id: 4, message: 'My master is crazy! He puts on my collar and gets on all fours!'},
     {id: 5, message: 'Have you been castrated yet?'}
-  ]
+  ];
+
+  let usersMessange = messengerData.map((user) => {
+    return <UserMessange name={user.name} id={user.id} />
+  })
+
+  let messagesItem = messageUsers.map((item) => {
+    return <MessageItem message={item.message} />
+  })
+
   return (
     <section className={classes.messenger}>
       <div className={classes.messenger__users}>
-        <UserMessange name={messengerData[0].name} id={messengerData[0].id} />
-        <UserMessange name={messengerData[1].name} id={messengerData[1].id} />
-        <UserMessange name={messengerData[2].name} id={messengerData[2].id} />
-        <UserMessange name={messengerData[3].name} id={messengerData[3].id} />
-        <UserMessange name={messengerData[4].name} id={messengerData[4].id} />
+        { usersMessange }
       </div>
       <div className={classes.messenger__item}>
-        <MessageItem message={messageUsers[0].message} />
-        <MessageItem message={messageUsers[1].message} />
-        <MessageItem message={messageUsers[2].message} />
-        <MessageItem message={messageUsers[3].message} />
-        <MessageItem message={messageUsers[4].message} />
+        { messagesItem }
       </div>
     </section>
   )
