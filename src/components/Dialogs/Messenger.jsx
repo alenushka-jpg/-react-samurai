@@ -31,7 +31,7 @@ const Messenger = () => {
     {id: 5, message: 'Have you been castrated yet?'}
   ];
 
-  let usersMessange = messengerData.map((user) => {
+  let messageUser = messengerData.map((user) => {
     return <UserMessange name={user.name} id={user.id} />
   })
 
@@ -42,7 +42,7 @@ const Messenger = () => {
   return (
     <section className={classes.messenger}>
       <div className={classes.messenger__users}>
-        { usersMessange }
+        { messageUser }
       </div>
       <div className={classes.messenger__item}>
         { messagesItem }
